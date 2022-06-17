@@ -1,0 +1,40 @@
+{
+  "name": "baki-nft",
+  "version": "1.0.0",
+  "description": "This is smart contract for BAKI NFT.",
+  "repository": "https://github.com/phoenix0113/baki-nft.git",
+  "author": "Lucas Lomonaco",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.2.1",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "@openzeppelin/contracts": "^4.6.0",
+    "@truffle/hdwallet-provider": "^2.0.8",
+    "bootstrap": "^5.1.3",
+    "bootstrap-icons": "^1.8.3",
+    "dotenv": "^16.0.1",
+    "ethers": "^5.6.8",
+    "framer-motion": "^6",
+    "keccak256": "^1.0.6",
+    "merkletreejs": "^0.2.31",
+    "next": "12.1.6",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "truffle-plugin-verify": "^0.5.26"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.42",
+    "@types/react": "18.0.12",
+    "@types/react-dom": "18.0.5",
+    "eslint": "8.17.0",
+    "eslint-config-next": "12.1.6",
+    "typescript": "4.7.3"
+  }
+}

@@ -1,0 +1,32 @@
+.height-51px {
+  height: 51px !important;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.min-width-20px {
+  min-width: 20px;
+}
+
+.twitter-section {
+  padding: 1rem;
+  border-radius: 1.5rem;
+  border: 0.2rem solid rgb(32, 32, 32);
+  background: radial-gradient(
+    circle,
+    rgba(3, 1, 48, 1) 14%,
+    rgba(0, 0, 45, 1) 100%
+  );
+}
+
+.full-screen {
+  position: absolute;
+  width: calc(100% - 2rem);
+  height: 100%;
+  z-index: 50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
