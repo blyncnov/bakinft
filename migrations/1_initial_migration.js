@@ -16,7 +16,7 @@ module.exports = function (deployer) {
   const baseURI = "https://google.com";
   const maxMint = 5;
 
-  // Get the Merkleroot hash
+  // Get the Merkleroot hash here
   const leftNodes = whitelist.map((address) => keccak256(address));
   const merkleTree = new MerkleTree(leftNodes, keccak256, { sortPairs: true });
   const rootHash = merkleTree.getHexRoot();
@@ -32,6 +32,4 @@ module.exports = function (deployer) {
     baseURI,
     maxMint
   );
-}
-
-
+};
